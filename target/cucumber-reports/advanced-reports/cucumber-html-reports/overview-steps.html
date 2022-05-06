@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>ExpoAppTestAutomation</td>
+              <td>1</td>
+            <td>06 May 2022, 17:58</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Duration</th>
+            <th>Average</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">CreateMultipleTasks.add_Multiple_tasks(String)</td>
+              <td>3</td>
+              <td class="duration" data-value="1176332025">1s 176ms</td>
+              <td class="duration" data-value="392110675">392ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CreateMultipleTasks.user_navigated_to_React_to_do_list_URI()</td>
+              <td>1</td>
+              <td class="duration" data-value="160839149">160ms</td>
+              <td class="duration" data-value="160839149">160ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CreateMultipleTasks.verify_Add_Task_Tool_Tip_when_user_dont_have_to_do_list()</td>
+              <td>1</td>
+              <td class="duration" data-value="75435682">075ms</td>
+              <td class="duration" data-value="75435682">075ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CreateMultipleTasks.verify_To_Do_List_Header()</td>
+              <td>1</td>
+              <td class="duration" data-value="50587041">050ms</td>
+              <td class="duration" data-value="50587041">050ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CreateMultipleTasks.verify_To_Do_List_count_is(int)</td>
+              <td>1</td>
+              <td class="duration" data-value="51819040">051ms</td>
+              <td class="duration" data-value="51819040">051ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CreateMultipleTasks.verify_some_other_action_To_Do_Done_All_Tab_bar()</td>
+              <td>1</td>
+              <td class="duration" data-value="163217262">163ms</td>
+              <td class="duration" data-value="163217262">163ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">DeleteMultipleTasks.again_click_on_delete_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="47222127">047ms</td>
+              <td class="duration" data-value="47222127">047ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">DeleteMultipleTasks.click_on_Delete_All_Tasks()</td>
+              <td>1</td>
+              <td class="duration" data-value="141148918">141ms</td>
+              <td class="duration" data-value="141148918">141ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">DeleteMultipleTasks.once_again_click_on_on_Delete_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="57892105">057ms</td>
+              <td class="duration" data-value="57892105">057ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">DeleteMultipleTasks.select_to_delete_only_one_Task_from_list()</td>
+              <td>1</td>
+              <td class="duration" data-value="16046618">016ms</td>
+              <td class="duration" data-value="16046618">016ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">DeleteMultipleTasks.user_Click_on_Delete_Button()</td>
+              <td>1</td>
+              <td class="duration" data-value="100072981">100ms</td>
+              <td class="duration" data-value="100072981">100ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">DeleteMultipleTasks.user_able_to_close_the_Delete_All_Tasks_from_the_list()</td>
+              <td>1</td>
+              <td class="duration" data-value="20681829">020ms</td>
+              <td class="duration" data-value="20681829">020ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">DeleteMultipleTasks.verify_All_tasks_deleted()</td>
+              <td>1</td>
+              <td class="duration" data-value="46006957">046ms</td>
+              <td class="duration" data-value="46006957">046ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">DeleteMultipleTasks.verify_deleted_task_should_be_remove_from_the_list_of_TO_DO_and_ALL_tabs()</td>
+              <td>1</td>
+              <td class="duration" data-value="37894439">037ms</td>
+              <td class="duration" data-value="37894439">037ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">DeleteMultipleTasks.verify_user_have_Delete_All_Tasks_Button_with_Red_colour()</td>
+              <td>1</td>
+              <td class="duration" data-value="26093531">026ms</td>
+              <td class="duration" data-value="26093531">026ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">DeleteMultipleTasks.verify_user_have_Delete_All_Tasks_button_with_Red_colour()</td>
+              <td>1</td>
+              <td class="duration" data-value="17499050">017ms</td>
+              <td class="duration" data-value="17499050">017ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ServiceHooks.afterMethod(Scenario)</td>
+              <td>10</td>
+              <td class="duration" data-value="5055608618">5s 055ms</td>
+              <td class="duration" data-value="505560861">505ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ServiceHooks.setUp(Scenario)</td>
+              <td>10</td>
+              <td class="duration" data-value="6280893">006ms</td>
+              <td class="duration" data-value="628089">000ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ToDoList.user_navigated_TO_DO_Tab()</td>
+              <td>1</td>
+              <td class="duration" data-value="73239362">073ms</td>
+              <td class="duration" data-value="73239362">073ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ToDoList.verify_ALL_Tab_with_list_tasks_without_checkboxes()</td>
+              <td>1</td>
+              <td class="duration" data-value="324586570">324ms</td>
+              <td class="duration" data-value="324586570">324ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ToDoList.verify_TO_DO_after_change_from_DONE_Tab()</td>
+              <td>1</td>
+              <td class="duration" data-value="125451344">125ms</td>
+              <td class="duration" data-value="125451344">125ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>21</td>
+            <td>41</td>
+            <td class="duration">7s 773ms</td>
+            <td class="duration">189ms</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

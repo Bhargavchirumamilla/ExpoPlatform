@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16" started-at="2019-07-24T08:55:59Z" finished-at="2019-07-24T08:55:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16" started-at="2019-07-24T08:55:59Z" finished-at="2019-07-24T08:55:59Z">
+      <class name="com.landmarkshops.apps.TestRunner.SearchTest">
+        <test-method status="FAIL" signature="setupDriver(java.lang.String, int, java.lang.String)[pri:0, instance:com.landmarkshops.apps.TestRunner.SearchTest@6986852]" name="setupDriver" is-config="true" duration-ms="0" started-at="2019-07-24T14:25:59Z" finished-at="2019-07-24T14:25:59Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'configFileName' is required by BeforeSuite on method setupDriver but has not been marked @Optional or defined
+in /private/var/folders/l7/9l0rjvpn4m16wrd8064bq0l80000gp/T/testng-eclipse-1253206556/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'configFileName' is required by BeforeSuite on method setupDriver but has not been marked @Optional or defined
+in /private/var/folders/l7/9l0rjvpn4m16wrd8064bq0l80000gp/T/testng-eclipse-1253206556/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:203)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="SKIP" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.landmarkshops.apps.TestRunner.SearchTest@6986852]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-07-24T14:25:59Z" finished-at="2019-07-24T14:25:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="Search_By_Product(org.testng.ITestContext)[pri:1, instance:com.landmarkshops.apps.TestRunner.SearchTest@6986852]" name="Search_By_Product" duration-ms="2" started-at="2019-07-24T14:25:59Z" finished-at="2019-07-24T14:25:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41005828]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'configFileName' is required by BeforeSuite on method setupDriver but has not been marked @Optional or defined
+in /private/var/folders/l7/9l0rjvpn4m16wrd8064bq0l80000gp/T/testng-eclipse-1253206556/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'configFileName' is required by BeforeSuite on method setupDriver but has not been marked @Optional or defined
+in /private/var/folders/l7/9l0rjvpn4m16wrd8064bq0l80000gp/T/testng-eclipse-1253206556/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:203)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_By_Product -->
+        <test-method status="SKIP" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.landmarkshops.apps.TestRunner.SearchTest@6986852]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-24T14:25:59Z" finished-at="2019-07-24T14:25:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="stopTest(org.testng.ITestContext)[pri:0, instance:com.landmarkshops.apps.TestRunner.SearchTest@6986852]" name="stopTest" is-config="true" duration-ms="0" started-at="2019-07-24T14:26:04Z" finished-at="2019-07-24T14:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+      </class> <!-- com.landmarkshops.apps.TestRunner.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

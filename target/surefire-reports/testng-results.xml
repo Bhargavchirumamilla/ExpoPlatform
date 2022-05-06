@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8608" started-at="2022-05-06T12:28:48Z" finished-at="2022-05-06T12:28:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8608" started-at="2022-05-06T12:28:48Z" finished-at="2022-05-06T12:28:56Z">
+      <class name="com.expoplatform.web.runner.CucumberTest">
+        <test-method status="PASS" signature="setupDriver(java.lang.String)[pri:0, instance:com.expoplatform.web.runner.CucumberTest@20398b7c]" name="setupDriver" is-config="true" duration-ms="8203" started-at="2022-05-06T17:58:39Z" finished-at="2022-05-06T17:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AppsConfig.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="launchTest()[pri:0, instance:com.expoplatform.web.runner.CucumberTest@20398b7c]" name="launchTest" is-config="true" duration-ms="200" started-at="2022-05-06T17:58:48Z" finished-at="2022-05-06T17:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTest -->
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.expoplatform.web.runner.CucumberTest@20398b7c]" name="login" duration-ms="4236" started-at="2022-05-06T17:58:48Z" description="Apps" data-provider="Feature" finished-at="2022-05-06T17:58:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create To Do List Task]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.expoplatform.web.runner.CucumberTest@20398b7c]" name="login" duration-ms="1719" started-at="2022-05-06T17:58:52Z" description="Apps" data-provider="Feature" finished-at="2022-05-06T17:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TO DO List Task]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.expoplatform.web.runner.CucumberTest@20398b7c]" name="login" duration-ms="2011" started-at="2022-05-06T17:58:54Z" description="Apps" data-provider="Feature" finished-at="2022-05-06T17:58:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delete List Of Task]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.expoplatform.web.runner.CucumberTest@20398b7c]" name="report" is-config="true" duration-ms="365" started-at="2022-05-06T17:58:56Z" finished-at="2022-05-06T17:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="stopTest(org.testng.ITestContext)[pri:0, instance:com.expoplatform.web.runner.CucumberTest@20398b7c]" name="stopTest" is-config="true" duration-ms="189" started-at="2022-05-06T17:58:56Z" finished-at="2022-05-06T17:58:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14ac77b9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+      </class> <!-- com.expoplatform.web.runner.CucumberTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

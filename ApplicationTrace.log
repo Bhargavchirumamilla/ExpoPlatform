@@ -1,0 +1,79 @@
+2022-05-06 17:58:39.000888 INFO  TestHarness:119 - Method called for loading config file.
+2022-05-06 17:58:48.000449 INFO  ServiceHooks:63 - ************Test Execution started:Verify To-Do List screen************
+
+2022-05-06 17:58:48.000818 INFO  BaseBrowserView:34 - User found  element is Displayed in screen is available : true
+2022-05-06 17:58:48.000858 INFO  BaseBrowserView:34 - User found  element is Displayed in screen is available : true
+2022-05-06 17:58:48.000900 INFO  BaseBrowserView:34 - User found  element is Displayed in screen is available : true
+2022-05-06 17:58:48.000931 INFO  BaseBrowserView:23 - User found  element in screen is available : true
+2022-05-06 17:58:49.000366 INFO  ServiceHooks:48 - Verify To-Do List screen is Passed
+2022-05-06 17:58:49.000384 INFO  ServiceHooks:53 - Verify To-Do List screen ---------->has Passed
+2022-05-06 17:58:49.000384 INFO  ServiceHooks:55 - ************Test Execution completed for Test:Verify To-Do List screen************
+
+2022-05-06 17:58:49.000389 INFO  ServiceHooks:63 - ************Test Execution started:Create To Do List Task and verify To Do List is present************
+
+2022-05-06 17:58:49.000460 INFO  BaseBrowserView:46 - User Clear Text Box With Tip is  : [[ChromeDriver: chrome on MAC (e948ec417cedcf52604155c2228303ee)] -> xpath: //input[@type='text']]
+2022-05-06 17:58:49.000876 INFO  BaseBrowserView:40 - User Tap Web Element is  : [[ChromeDriver: chrome on MAC (e948ec417cedcf52604155c2228303ee)] -> xpath: //span[normalize-space()='Create']]
+2022-05-06 17:58:50.000496 INFO  ServiceHooks:48 - Create To Do List Task and verify To Do List is present is Passed
+2022-05-06 17:58:50.000541 INFO  ServiceHooks:53 - Create To Do List Task and verify To Do List is present ---------->has Passed
+2022-05-06 17:58:50.000541 INFO  ServiceHooks:55 - ************Test Execution completed for Test:Create To Do List Task and verify To Do List is present************
+
+2022-05-06 17:58:50.000542 INFO  ServiceHooks:63 - ************Test Execution started:Create To Do List Task and verify To Do List is present************
+
+2022-05-06 17:58:50.000580 INFO  BaseBrowserView:46 - User Clear Text Box With Tip is  : [[ChromeDriver: chrome on MAC (e948ec417cedcf52604155c2228303ee)] -> xpath: //input[@type='text']]
+2022-05-06 17:58:50.000969 INFO  BaseBrowserView:40 - User Tap Web Element is  : [[ChromeDriver: chrome on MAC (e948ec417cedcf52604155c2228303ee)] -> xpath: //span[normalize-space()='Create']]
+2022-05-06 17:58:51.000426 INFO  ServiceHooks:48 - Create To Do List Task and verify To Do List is present is Passed
+2022-05-06 17:58:51.000429 INFO  ServiceHooks:53 - Create To Do List Task and verify To Do List is present ---------->has Passed
+2022-05-06 17:58:51.000430 INFO  ServiceHooks:55 - ************Test Execution completed for Test:Create To Do List Task and verify To Do List is present************
+
+2022-05-06 17:58:51.000433 INFO  ServiceHooks:63 - ************Test Execution started:Create To Do List Task and verify To Do List is present************
+
+2022-05-06 17:58:51.000473 INFO  BaseBrowserView:46 - User Clear Text Box With Tip is  : [[ChromeDriver: chrome on MAC (e948ec417cedcf52604155c2228303ee)] -> xpath: //input[@type='text']]
+2022-05-06 17:58:51.000701 INFO  BaseBrowserView:40 - User Tap Web Element is  : [[ChromeDriver: chrome on MAC (e948ec417cedcf52604155c2228303ee)] -> xpath: //span[normalize-space()='Create']]
+2022-05-06 17:58:52.000159 INFO  ServiceHooks:48 - Create To Do List Task and verify To Do List is present is Passed
+2022-05-06 17:58:52.000161 INFO  ServiceHooks:53 - Create To Do List Task and verify To Do List is present ---------->has Passed
+2022-05-06 17:58:52.000162 INFO  ServiceHooks:55 - ************Test Execution completed for Test:Create To Do List Task and verify To Do List is present************
+
+2022-05-06 17:58:52.000163 INFO  ServiceHooks:63 - ************Test Execution started:Verify To Do List count************
+
+2022-05-06 17:58:52.000590 INFO  ServiceHooks:48 - Verify To Do List count is Passed
+2022-05-06 17:58:52.000592 INFO  ServiceHooks:53 - Verify To Do List count ---------->has Passed
+2022-05-06 17:58:52.000592 INFO  ServiceHooks:55 - ************Test Execution completed for Test:Verify To Do List count************
+
+2022-05-06 17:58:52.000594 INFO  ServiceHooks:63 - ************Test Execution started:Verify To-Do List Tasks************
+
+2022-05-06 17:58:52.000668 INFO  BaseBrowserView:40 - User Tap Web Element is  : Proxy element for: DefaultElementLocator 'By.cssSelector: button:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)'
+2022-05-06 17:58:52.000981 INFO  BaseBrowserView:40 - User Tap Web Element is  : Proxy element for: DefaultElementLocator 'By.cssSelector: button:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)'
+2022-05-06 17:58:53.000612 INFO  ServiceHooks:48 - Verify To-Do List Tasks is Passed
+2022-05-06 17:58:53.000617 INFO  ServiceHooks:53 - Verify To-Do List Tasks ---------->has Passed
+2022-05-06 17:58:53.000618 INFO  ServiceHooks:55 - ************Test Execution completed for Test:Verify To-Do List Tasks************
+
+2022-05-06 17:58:53.000620 INFO  ServiceHooks:63 - ************Test Execution started:Verify DONE List Tasks************
+
+2022-05-06 17:58:54.000307 INFO  ServiceHooks:48 - Verify DONE List Tasks is Passed
+2022-05-06 17:58:54.000309 INFO  ServiceHooks:53 - Verify DONE List Tasks ---------->has Passed
+2022-05-06 17:58:54.000310 INFO  ServiceHooks:55 - ************Test Execution completed for Test:Verify DONE List Tasks************
+
+2022-05-06 17:58:54.000315 INFO  ServiceHooks:63 - ************Test Execution started:Verify Delete List Of Task************
+
+2022-05-06 17:58:54.000417 INFO  BaseBrowserView:40 - User Tap Web Element is  : [[ChromeDriver: chrome on MAC (e948ec417cedcf52604155c2228303ee)] -> xpath: //div[@class='enable-remove-mode']]
+2022-05-06 17:58:54.000945 INFO  ServiceHooks:48 - Verify Delete List Of Task is Passed
+2022-05-06 17:58:54.000948 INFO  ServiceHooks:53 - Verify Delete List Of Task ---------->has Passed
+2022-05-06 17:58:54.000948 INFO  ServiceHooks:55 - ************Test Execution completed for Test:Verify Delete List Of Task************
+
+2022-05-06 17:58:54.000949 INFO  ServiceHooks:63 - ************Test Execution started:Verify Delete ALL button, user able to close the tasks************
+
+2022-05-06 17:58:54.000997 INFO  BaseBrowserView:40 - User Tap Web Element is  : [[ChromeDriver: chrome on MAC (e948ec417cedcf52604155c2228303ee)] -> xpath: //div[@class='enable-remove-mode']]
+2022-05-06 17:58:55.000078 INFO  BaseBrowserView:40 - User Tap Web Element is  : [[ChromeDriver: chrome on MAC (e948ec417cedcf52604155c2228303ee)] -> xpath: //div[@class='enable-remove-mode']]
+2022-05-06 17:58:55.000503 INFO  ServiceHooks:48 - Verify Delete ALL button, user able to close the tasks is Passed
+2022-05-06 17:58:55.000504 INFO  ServiceHooks:53 - Verify Delete ALL button, user able to close the tasks ---------->has Passed
+2022-05-06 17:58:55.000504 INFO  ServiceHooks:55 - ************Test Execution completed for Test:Verify Delete ALL button, user able to close the tasks************
+
+2022-05-06 17:58:55.000505 INFO  ServiceHooks:63 - ************Test Execution started:Verify Delete ALL List Of Task************
+
+2022-05-06 17:58:55.000564 INFO  BaseBrowserView:40 - User Tap Web Element is  : [[ChromeDriver: chrome on MAC (e948ec417cedcf52604155c2228303ee)] -> xpath: //span[normalize-space()='Delete All Tasks']]
+2022-05-06 17:58:55.000647 INFO  BaseBrowserView:40 - User Tap Web Element is  : [[ChromeDriver: chrome on MAC (e948ec417cedcf52604155c2228303ee)] -> xpath: //span[normalize-space()='Confirm']]
+2022-05-06 17:58:56.000320 INFO  ServiceHooks:48 - Verify Delete ALL List Of Task is Passed
+2022-05-06 17:58:56.000323 INFO  ServiceHooks:53 - Verify Delete ALL List Of Task ---------->has Passed
+2022-05-06 17:58:56.000323 INFO  ServiceHooks:55 - ************Test Execution completed for Test:Verify Delete ALL List Of Task************
+
+2022-05-06 17:58:56.000702 INFO  TestHarness:128 - Report Path Location:  /Users/i541003/Downloads/WebAppAutomation-ExpoPlatform/TestResults/cucumber-reports/TestAutomation.html
